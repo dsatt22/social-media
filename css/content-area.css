@@ -1,0 +1,11 @@
+#content-area .side-column{
+    float: left;
+    width: 35%;
+    margin: 0 2.5%;
+}
+
+#content-area .main-area{
+    float: left;
+    width: 55%;
+    margin: 0 2.5%;
+}
