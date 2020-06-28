@@ -77,11 +77,27 @@ overflow: auto;
     float: left;
     text-align: center;
     border-bottom: 3px solid #fff;
-    transition: border-bottom .4s ease-in-out;
+    transition: all .4s ease-in-out;
     cursor: pointer;
+    padding: 10px;
 }
 
 #content-area .main-area .submenu ul li:hover{
     border-bottom: 3px solid #2196F3;
-    
+    color: #2196F3;   
+}
+#content-area .main-area .submenu ul li:nth-child(5){
+    padding-top: 29px;
+    vertical-align: middle;
+}
+
+#content-area .main-area .submenu ul li .fas{
+    font-size: 20px;
+}
+
+#content-area .main-area .submenu ul li span{
+    display: block;
+    margin: 5px 0 0 0;
+    text-transform: uppercase;
+    font-size: 14px;
 }
