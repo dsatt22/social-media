@@ -102,8 +102,20 @@ overflow: auto;
     font-size: 14px;
 }
 
+#content-area .main-area .widget-box.post{
+    overflow: auto;
+}
+
+.user-img-container{
+    width: 8%;
+    display: inline-block;
+    overflow: auto;
+    float: left;
+}
+
 #content-area .main-area .widget-box.post .head .user-img{
     display: inline-block;
+    float: left;
     background: url(../img/profile-pic.png) no-repeat center center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -111,4 +123,30 @@ overflow: auto;
   background-size: cover;
     height: 40px;
     width: 40px;
+    margin: 0 15px 0 0;
+    border-radius: 50%;
+}
+
+#content-area .main-area .widget-box.post .head .post-info{
+    display: inline-block;
+    float: left;
+    width: 92%;
+}
+
+#content-area .main-area .widget-box.post .head::after{
+    content: " ";
+    clear: both;
+    display: table;
+}
+
+#content-area .main-area .widget-box.post .head .post-info .user-info{
+    display: block;
+    font-size: 14px;
+    margin: 4px 0 6px 0;
+}
+
+#content-area .main-area .widget-box.post .head .post-info .post-date{
+    display: block;
+    font-size: 12px;
+    color: #ABABAB;
 }
